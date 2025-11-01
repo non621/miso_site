@@ -1,0 +1,25 @@
+/* ====== レスポンシブ ====== */
+@media (max-width: 1000px){
+    .hero {
+      grid-template-columns:1fr;
+    }
+
+    nav ul{
+        display:none
+    }
+}
+
+@media (max-width: 767px){
+    h1{
+      font-size:26px;
+      margin:6px 0 12px;
+    }
+
+    .hero {
+      grid-template-columns:1fr;
+    }
+
+    nav ul{
+        display:none
+    }
+}
